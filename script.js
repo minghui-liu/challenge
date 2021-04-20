@@ -1,1 +1,1 @@
-document.getElementById("apple").ondblclick=function(){myFunction()};document.getElementById("carrot").ondblclick=function(){myFunc2()};var state=false;functionmyFunction(){state = true;}function myFunc2(){if(state==true){document.getElementById("ans").innerHTML="https://bit.ly/3n0J5O5";}}
+document.getElementById("apple").ondblclick=function(){myFunction()},document.getElementById("carrot").ondblclick=function(){myFunc2()};var state=!1;function myFunction(){state=!0}function myFunc2(){1==state&&(document.getElementById("ans").innerHTML="https://bit.ly/3n0J5O5")}
