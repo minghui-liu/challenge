@@ -1,0 +1,1 @@
+document.getElementById("apple").ondblclick=function(){myFunction()};document.getElementById("carrot").ondblclick=function(){myFunc2()};var state=false;functionmyFunction(){state = true;}function myFunc2(){if(state==true){document.getElementById("ans").innerHTML="https://bit.ly/3n0J5O5";}}
