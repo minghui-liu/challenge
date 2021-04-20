@@ -6,18 +6,30 @@
 
 <table>
 <tr>
-  <td><img src="fruits/orange.jpg" alt="orange" width=200 height=200></td>
-  <td><img src="fruits/watermelon.jpg" alt="watermelon" width=200 height=200></td> 
-  <td><img src="fruits/carrot.jpg" alt="carrot" width=200 height=200></td>
-  <td><img src="fruits/pear.jpg" alt="pear" width=200 height=200></td>
+  <td><img id="orange" src="fruits/orange.jpg" alt="orange" width=200 height=200></td>
+  <td><img id="watermelon" src="fruits/watermelon.jpg" alt="watermelon" width=200 height=200></td> 
+  <td><img id="carrot" src="fruits/carrot.jpg" alt="carrot" width=200 height=200></td>
+  <td><img id="pear" src="fruits/pear.jpg" alt="pear" width=200 height=200></td>
 </tr>
 <tr>
-  <td><img src="fruits/apple.jpg" alt="apple" width=200 height=200></td>
-  <td><img src="fruits/strawberry.jpg" alt="strawberry" width=200 height=200></td> 
-  <td><img src="fruits/grape.jpg" alt="grape" width=200 height=200></td> 
-  <td><img src="fruits/banana.jpg" alt="banana" width=200 height=200></td>
+  <td><img id="apple" src="fruits/apple.jpg" alt="apple" width=200 height=200></td>
+  <td><img id="strawberry" src="fruits/strawberry.jpg" alt="strawberry" width=200 height=200></td> 
+  <td><img id="grape" src="fruits/grape.jpg" alt="grape" width=200 height=200></td> 
+  <td><img id="banana" src="fruits/banana.jpg" alt="banana" width=200 height=200></td>
 </tr>
 </table>
-  
+
+  <h1 id="ans"> </h1>
+ 
+<script>
+document.getElementById("apple").ondblclick = function() {myFunction()};
+
+function myFunction() {
+  document.getElementById("ans").innerHTML = "https://bitly";
+}
+</script>
+
 </body>
 </html>
+
+
