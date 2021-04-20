@@ -19,13 +19,21 @@
 </tr>
 </table>
 
-  <h1 id="ans"> </h1>
+<h1 id="ans"> </h1>
  
 <script>
 document.getElementById("apple").ondblclick = function() {myFunction()};
+document.getElementById("carrot").ondblclick = function() {myFunc2()};
+var state=false;
 
 function myFunction() {
-  document.getElementById("ans").innerHTML = "https://bitly";
+  state = true;
+}
+
+function myFunc2() {
+  if (state == true) {
+    document.getElementById("ans").innerHTML = "https://bitly";
+  }
 }
 </script>
 
